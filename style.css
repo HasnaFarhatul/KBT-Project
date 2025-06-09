@@ -1,1 +1,82 @@
+.navbar-brand {
+    margin-left: 15rem; 
+}
 
+.navbar-nav {
+    margin-right: 8rem;
+}
+  
+.navbar-nav .nav-item {
+    margin-left: 6rem;
+}
+
+.navbar {
+    background-color: rgb(32, 32, 164) !important;
+}
+
+.navbar a,
+.navbar-brand,
+.navbar-nav .nav-link {
+    font-weight: bold;
+    color: white !important;
+}
+
+h1 {
+    margin-top: 100vh;
+    page-break-before: always;
+}
+
+.fitur-box {
+    background-color: #ffffff;
+    border: 1px solid #000000;
+    border-radius: 12px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+    font-weight: 500;
+    width: 200px;          
+    height: 250px;         
+    margin-bottom: 20px;
+    text-align: center;
+    font-size: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+  
+.footer-custom {
+    background-color: rgb(32, 32, 164) ;
+    padding-top: 3rem;
+    padding-bottom: 3rem;
+}
+  
+.footer-subjudul {
+    color: #cccccc; 
+    font-weight: 700;
+    font-size: 1.25rem;
+    margin-bottom: 1rem;
+}
+  
+.footer-link {
+    color: #ffffff;
+    text-decoration: none;
+    display: block;
+    margin-bottom: 10px;
+    font-size: 1.1rem;
+    font-weight: 500;
+}
+  
+.footer-link:hover {
+    text-decoration: underline;
+    color: #ddd;
+}
+
+.sosmed-icon i {
+    font-size: 30px;
+    color: #ffffff;
+    transition: color 0.3s ease;
+}
+  
+  .sosmed-icon:hover i {
+    color: rgb(32, 32, 164);
+}
+  
