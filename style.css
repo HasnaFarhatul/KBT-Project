@@ -10,6 +10,14 @@
     margin-left: 6rem;
 }
 
+.logo-img {
+  height: 50px !important;
+  width: auto;
+  object-fit: contain;
+  display: inline-block;
+  margin-left: 10px;      
+}
+
 .navbar {
     background-color: rgb(32, 32, 164) !important;
 }
@@ -19,6 +27,24 @@
 .navbar-nav .nav-link {
     font-weight: bold;
     color: white !important;
+}
+
+.btn-daftar {
+  display: inline-block;
+  background-color: rgb(32, 32, 164);
+  color: white;
+  font-weight: bold;
+  padding: 10px 30px;
+  border: none;
+  border-radius: 10px;
+  text-decoration: none;
+  cursor: pointer;
+  text-align: center;
+  transition: background-color 0.3s ease;
+}
+
+.btn-daftar:hover {
+  background-color: rgb(32, 32, 164);
 }
 
 h1 {
@@ -76,7 +102,7 @@ h1 {
     transition: color 0.3s ease;
 }
   
-  .sosmed-icon:hover i {
+.sosmed-icon:hover i {
     color: rgb(32, 32, 164);
 }
 
@@ -91,20 +117,22 @@ h1 {
 }
 
 .top-navbar {
-  width: 100%;
-  height: 250px;
-  background-color: rgb(32, 32, 164);
+  background-color: rgb(32, 32, 164); 
   color: white;
-  border-bottom-left-radius: 50px;
-  border-bottom-right-radius: 50px;
-  display: flex;
-  align-items: center;
+  border-bottom-left-radius: 40px;
+  border-bottom-right-radius: 40px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+  background-image: url('mobil-shadow.png'); 
+  background-repeat: no-repeat;
+  background-position: center right;
+  background-size: contain;
 }
 
 .logo-img {
-  width: 100px;
+  width: 150px;
   height: auto;
   margin-left: 40px;
+  object-fit: contain;
 }
 
 .text-area {
@@ -114,16 +142,229 @@ h1 {
 }
 
 .judul-kapital {
-  font-family: 'Parisienne', cursive;
+  font-family: 'Great Vibes', cursive;
   font-size: 1.8rem;
   font-weight: bold;
-  letter-spacing: 1px;
-  text-transform: uppercase;
-  margin-bottom: 0.3rem;
 }
 
 .judul-kecil {
   font-family: 'Trebuchet MS', sans-serif;
   font-size: 1rem;
   color: #e0e0e0;
+  margin: 0;
+}
+
+.chat-container {
+  height: 100vh;
+  overflow: hidden;
+}
+
+.chat-sidebar {
+  width: 260px;
+  background-color: #ffffff;
+  border-right: 1px solid #ffffff;
+}
+
+.chat-content {
+  background-color: rgb(32, 32, 164);
+  overflow: hidden;
+}
+
+.navbar-chat {
+  background-color: rgb(32, 32, 164);
+  color: white;
+}
+.navbar-chat .navbar-brand,
+.navbar-chat .nav-link,
+.navbar-chat i {
+  color: white !important;
+  font-weight: bold;
+}
+
+.chat-input-area {
+  background-color: rgb(32, 32, 164);
+  border-top: 3px solid #0f172a;
+}
+
+.chat-box {
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+.chat-message {
+  padding: 10px;
+  border-radius: 10px;
+  margin-bottom: 10px;
+  max-width: 75%;
+}
+
+.chat-message.user {
+  background-color: #e9ecef;
+  align-self: flex-start;
+}
+
+.chat-message.reply {
+  background-color: #d1e7dd;
+  align-self: flex-end;
+}
+
+img.rounded-circle {
+  object-fit: cover;
+}
+
+.chat-navbar {
+  background-color: rgb(32, 32, 164) !important;
+}
+
+.chat-navbar h5 {
+  color: white !important;
+}
+
+.chat-navbar button {
+  color: white !important;
+  border-color: white !important;
+}
+
+.form-section {
+  max-width: 600px;
+  margin-left: 40px; 
+}
+
+.navbar .container-fluid {
+  align-items: center;
+  gap: 1rem;
+}
+
+.navbar .container-fluid .fw-semibold {
+  color: white;
+}
+
+.navbar {
+  background-color: rgb(32, 32, 164) !important;
+}
+
+.navbar a i {
+  color: white !important;
+}
+
+.navbar-second {
+  background-color: rgb(32, 32, 164); 
+}
+
+.logo-navbar2 {
+  height: 40px;
+}
+
+.search-bar {
+  flex-grow: 1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.search-bar .search-input {
+  width: 200px;
+  max-width:500px;
+}
+
+.btn-search {
+  background-color: rgb(32, 32, 164);
+  border-color: rgb(32, 32, 164);
+}
+
+.btn-search i {
+  color: white;
+}
+
+.bag-icon i {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+}
+
+.copr {
+  font-size: large;
+  color: rgb(97, 89, 89);
+}
+
+.card-booking {
+  border-radius: 20px;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+  overflow: hidden;
+  transition: transform 0.2s;
+}
+
+.card-booking:hover {
+  transform: scale(1.03);
+}
+
+.card-booking img {
+  height: 150px;
+  object-fit: cover;
+}
+
+.card-booking .card-title {
+  font-weight: bold;
+  font-size: 1.2rem;
+}
+
+.card-booking .card-text {
+  font-size: 0.95rem;
+  color: #444;
+}
+
+.card-booking .harga {
+  font-size: 1.1rem;
+  font-weight: bold;
+  color: #003366;
+  margin-top: 10px;
+}
+
+.alert {
+  border-radius: 12px;
+  padding: 15px 20px;
+  font-size: 1rem;
+}
+
+.navbar-second {
+  background-color: #fff;
+  padding: 10px 20px;
+  border-bottom: 1px solid #ccc;
+}
+
+.navbar-second span {
+  color: #333;
+  font-weight: bold;
+}
+
+.box-custom {
+  background-color: #fff;
+  border-radius: 10px;
+  padding: 20px;
+  margin-bottom: 20px;
+}
+
+.box-title {
+  color: #003366;
+  font-weight: 600;
+  margin-bottom: 10px;
+}
+
+.form-control {
+  border-radius: 8px;
+}
+
+.select-payment {
+  width: 100%;
+  border-radius: 8px;
+  padding: 10px;
+  border: 1px solid #ccc;
+}
+
+.rekomendasi-title {
+  text-align: center;
+  color: #6c757d;
+  font-weight: bold;
+  margin-top: 20px;
+  margin-bottom: 15px;
 }

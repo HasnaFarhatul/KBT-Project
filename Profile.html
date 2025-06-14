@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>List Dagangan | Be-Line</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet"/>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css"/>
+  <link href="https://fonts.googleapis.com/css2?family=Trebuchet+MS&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg navbar-light px-4 py-3 shadow-sm">
+        <div class="container-fluid">
+            <div class="d-flex align-items-center">
+                <span class="me-2 fw-semibold">Ikuti Kami di:</span>
+                <a href="#" class="me-2 text-dark"><i class="bi bi-instagram fs-5"></i></a>
+                <a href="mailto:email@example.com" class="me-2 text-dark"><i class="bi bi-envelope-fill fs-5"></i></a>
+                <a href="https://wa.me/6281776499223" class="text-dark"><i class="bi bi-whatsapp fs-5"></i></a>
+            </div>
+            <div class="d-flex align-items-center ms-auto">
+                <a href="Notif.html" class="me-4 text-dark d-flex align-items-center">
+                <i class="bi bi-bell-fill me-1 fs-5"></i> <span>Notifikasi</span>
+                </a>
+                <a href="Profile.html" class="text-dark d-flex align-items-center">
+                <img src="https://cdn.pixabay.com/photo/2018/11/13/21/43/avatar-3814049_1280.png" alt="Profil" width="32" height="32" class="rounded-circle me-2"/>
+                <span>Profile</span>
+                </a>
+            </div>
+        </div>
+    </nav>
+    <nav class="navbar-second py-3">
+    <div class="container-fluid d-flex align-items-center justify-content-between">
+        <img src="Logoputih.png" alt="Logo Be-Line" class="logo-navbar2"/>
+        <div class="search-bar d-flex align-items-center">
+        <input type="text" class="form-control form-control-sm me-2 search-input" placeholder="Cari barang..."/>
+        <button class="btn btn-primary btn-search">
+            <i class="bi bi-search"></i>
+        </button>
+        </div>
+        <div class="bag-icon">
+        <i class="bi bi-briefcase-fill fs-4 text-white"></i>
+        </div>
+    </div>
+    </nav>
+    <div class="container my-5">
+        <div class="row">
+            <div class="col-md-8">
+            <h4 class="fw-bold">Profil Saya</h4>
+            <p class="text-secondary">Kelola informasi profil Anda untuk mengontrol, melindungi, dan mengamankan akun</p>
+            <div class="mb-3">
+                <label for="username" class="form-label">Username</label>
+                <input type="text" class="form-control text-muted" placeholder="Masukkan username Anda" id="username">
+                <small class="text-secondary">Username hanya dapat diubah satu kali</small>
+            </div>
+            <div class="mb-3">
+                <label for="nama" class="form-label">Nama</label>
+                <input type="text" class="form-control text-muted" placeholder="Masukkan nama Anda" id="nama">
+            </div>
+            <div class="mb-3">
+                <label for="email" class="form-label">Email</label>
+                <div class="d-flex justify-content-between align-items-center">
+                <span id="email">emailanda@email.com</span>
+                <a href="#" class="text-primary">Ubah</a>
+                </div>
+            </div>
+            <div class="mb-3">
+                <label for="telepon" class="form-label">Nomor Telepon</label>
+                <input type="tel" class="form-control text-muted" placeholder="Masukkan No telp Anda" id="telepon">
+            </div>
+            <div class="mb-3">
+                <label class="form-label">Jenis Kelamin</label>
+                <div>
+                <div class="form-check form-check-inline">
+                    <input class="form-check-input" type="radio" name="gender" id="perempuan" value="Perempuan">
+                    <label class="form-check-label" for="perempuan">Perempuan</label>
+                </div>
+                <div class="form-check form-check-inline">
+                    <input class="form-check-input" type="radio" name="gender" id="laki" value="Laki-laki">
+                    <label class="form-check-label" for="laki">Laki-laki</label>
+                </div>
+                </div>
+            </div>
+            <div class="mb-4">
+                <label for="tanggal" class="form-label">Tanggal Lahir</label>
+                <input type="date" class="form-control" id="tanggal">
+            </div>
+            <button type="submit" class="btn btn-daftar">Simpan</button>
+            </div>
+            <div class="col-md-4 text-center">
+            <img src="https://cdn.pixabay.com/photo/2018/11/13/21/43/avatar-3814049_1280.png" class="img-fluid rounded-circle mb-3" alt="Foto Profil">
+            <div class="mb-2">
+                <input type="file" class="form-control" id="uploadFoto">
+            </div>
+            <small class="text-secondary">Format gambar: .JPEG, .PNG</small>
+            </div>
+        </div>
+    </div>
+    <footer class="footer-custom text-white py-5 mt-5">
+        <div class="container">
+          <div class="row justify-content-center text-center text-md-start">
+            <div class="col-md-3 mb-4">
+              <h5 class="footer-subjudul">Layanan Pelanggan</h5>
+              <ul class="list-unstyled">
+                <li><a href="#" class="footer-link">Bantuan</a></li>
+                <li><a href="#" class="footer-link">Metode Pembayaran</a></li>
+                <li><a href="#" class="footer-link">Layanan Pelanggan</a></li>
+                <li><a href="#" class="footer-link">Pelacakan Jasa</a></li>
+                <li><a href="#" class="footer-link">Hubungi Kami</a></li>
+              </ul>
+            </div>
+            <div class="col-md-3 mb-4">
+              <h5 class="footer-subjudul">Jelajahi Kami</h5>
+              <ul class="list-unstyled">
+                <li><a href="#" class="footer-link">Karir</a></li>
+                <li><a href="#" class="footer-link">Kebijakan Privasi</a></li>
+                <li><a href="#" class="footer-link">Be-Line Bengkel</a></li>
+                <li><a href="#" class="footer-link">Promosi</a></li>
+                <li><a href="#" class="footer-link">Blog</a></li>
+              </ul>
+            </div>
+            <div class="col-md-3 mb-4">
+              <h5 class="footer-subjudul">Ikuti Kami</h5>
+                <div class="d-flex justify-content-center justify-content-md-start gap-3">
+                  <a href="#" target="_blank" class="sosmed-icon"><i class="bi bi-envelope-fill"></i></a>
+                  <a href="#" target="_blank" class="sosmed-icon"><i class="bi bi-whatsapp"></i></a>
+                  <a href="#" target="_blank" class="sosmed-icon"><i class="bi bi-instagram"></i></a>
+                </div>
+            </div>
+            <div class="copr">
+              <p>Copyright Be-Line 2025</p>
+            </div>
+          </div>
+        </div>
+    </footer>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
