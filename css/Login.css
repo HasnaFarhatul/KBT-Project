@@ -1,0 +1,239 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@700&family=Poppins&display=swap');
+
+body {
+  font-family: 'Poppins', sans-serif;
+  background-color: white;
+  margin: 0;
+  padding: 0;
+}
+
+.font-montserrat {
+  font-family: 'Montserrat', sans-serif;
+}
+
+.header-bg {
+  background-color: #1B3B8B;
+  border-bottom-left-radius: 40px;
+  border-bottom-right-radius: 40px;
+}
+
+h1.font-montserrat {
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+}
+
+input::placeholder {
+  color: #A89F9B;
+}
+
+input {
+  border-color: #D9D1CC;
+  border-radius: 0.5rem; /* rounded-lg */
+  padding-top: 0.75rem; /* py-3 */
+  padding-bottom: 0.75rem;
+  padding-left: 1rem; /* px-4 */
+  padding-right: 1rem;
+  font-size: 0.75rem; /* text-xs */
+  outline: none;
+}
+
+input:focus {
+  outline: none;
+  box-shadow: 0 0 0 2px #1B3B8B;
+  border-color: #1B3B8B;
+}
+
+label {
+  color: #7F7F7F;
+  font-size: 0.875rem; /* text-sm */
+  margin-bottom: 0.5rem;
+  display: block;
+}
+
+button {
+  background-color: #1B3B8B;
+  color: white;
+  font-weight: 600;
+  font-size: 1.125rem; /* text-lg */
+  padding: 0.75rem 1.5rem; /* py-3 px-6 */
+  border-radius: 0.375rem; /* rounded-md */
+  border: none;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #16346a;
+}
+
+a {
+  text-decoration: underline;
+}
+
+a.text-[#7F7F7F] {
+  color: #7F7F7F;
+  margin-left: 0.25rem;
+}
+
+a.text-[#1B3B8B] {
+  color: #1B3B8B;
+}
+
+p.text-xs {
+  font-size: 0.75rem;
+}
+
+p.text-[#7F7F7F] {
+  color: #7F7F7F;
+}
+
+p.text-black {
+  color: black;
+}
+
+.mb-6 {
+  margin-bottom: 1.5rem;
+}
+
+.mb-14 {
+  margin-bottom: 3.5rem;
+}
+
+.mb-1 {
+  margin-bottom: 0.25rem;
+}
+
+.mb-10 {
+  margin-bottom: 2.5rem;
+}
+
+.mt-10 {
+  margin-top: 2.5rem;
+}
+
+.mt-20 {
+  margin-top: 5rem;
+}
+
+.px-6 {
+  padding-left: 1.5rem;
+  padding-right: 1.5rem;
+}
+
+.py-8 {
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+}
+
+.py-10 {
+  padding-top: 2.5rem;
+  padding-bottom: 2.5rem;
+}
+
+.rounded-b-[40px] {
+  border-bottom-left-radius: 40px;
+  border-bottom-right-radius: 40px;
+}
+
+.max-w-5xl {
+  max-width: 64rem;
+}
+
+.mx-auto {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.flex {
+  display: flex;
+}
+
+.justify-end {
+  justify-content: flex-end;
+}
+
+.items-center {
+  align-items: center;
+}
+
+.space-x-4 > :not([hidden]) ~ :not([hidden]) {
+  margin-left: 1rem;
+}
+
+.text-white {
+  color: white;
+}
+
+.text-[#1B3B8B] {
+  color: #1B3B8B;
+}
+
+.text-[#7F7F7F] {
+  color: #7F7F7F;
+}
+
+.text-black {
+  color: black;
+}
+
+.text-sm {
+  font-size: 0.875rem;
+}
+
+.text-xs {
+  font-size: 0.75rem;
+}
+
+.text-lg {
+  font-size: 1.125rem;
+}
+
+.font-semibold {
+  font-weight: 600;
+}
+
+.font-bold {
+  font-weight: 700;
+}
+
+.uppercase {
+  text-transform: uppercase;
+}
+
+.tracking-wide {
+  letter-spacing: 0.05em;
+}
+
+.leading-[1.1] {
+  line-height: 1.1;
+}
+
+.max-w-[400px] {
+  max-width: 400px;
+}
+
+.max-w-[300px] {
+  max-width: 300px;
+}
+
+.mb-6 {
+  margin-bottom: 1.5rem;
+}
+
+.mb-14 {
+  margin-bottom: 3.5rem;
+}
+
+.ml-1 {
+  margin-left: 0.25rem;
+}
+
+@media (min-width: 640px) {
+  .sm\:py-10 {
+    padding-top: 2.5rem;
+    padding-bottom: 2.5rem;
+  }
+  .sm\:text-[28px] {
+    font-size: 28px;
+  }
+}

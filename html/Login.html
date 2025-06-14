@@ -1,0 +1,58 @@
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta content="width=device-width, initial-scale=1" name="viewport" />
+  <title>Be-Line Login</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@700&family=Poppins&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="Login.css" />
+</head>
+<body class="bg-white">
+  <header class="header-bg px-6 py-8 sm:py-10 max-w-full">
+    <div class="max-w-5xl mx-auto">
+      <img
+        alt="Be-Line logo with a wheel and a small faucet icon"
+        class="mb-6"
+        height="40"
+        src="https://storage.googleapis.com/a1aa/image/00d3a9ed-a262-401d-dbc3-f05493fabb31.jpg"
+        width="150"
+      />
+      <h1 class="text-white font-montserrat text-[24px] sm:text-[28px] leading-[1.1] mb-1 font-bold uppercase tracking-wide max-w-[400px]">
+        SELAMAT DATANG DI LAYANAN BE-LINE
+      </h1>
+      <p class="text-white text-[16px] max-w-[300px]">Stay calm on the journey</p>
+    </div>
+  </header>
+  <main class="max-w-5xl mx-auto px-6 mt-10">
+    <form class="w-full max-w-xl">
+      <label class="block text-[#7F7F7F] text-sm mb-2" for="whatsapp">No Whatsapp/No Telp</label>
+      <input
+        class="w-full border border-[#D9D1CC] rounded-lg py-3 px-4 text-xs placeholder-[#A89F9B] mb-6 focus:outline-none focus:ring-2 focus:ring-[#1B3B8B]"
+        id="whatsapp"
+        placeholder="Ketik No Whatsapp atau No Telp anda disini......"
+        type="text"
+      />
+      <label class="block text-[#7F7F7F] text-sm mb-2" for="password">Password</label>
+      <input
+        class="w-full border border-[#D9D1CC] rounded-lg py-3 px-4 text-xs placeholder-[#A89F9B] mb-14 focus:outline-none focus:ring-2 focus:ring-[#1B3B8B]"
+        id="password"
+        placeholder="Ketik password anda disini......"
+        type="password"
+      />
+      <div class="flex justify-end items-center space-x-4">
+        <p class="text-xs font-normal text-black">
+          <b>Belum punya akun?</b>
+          <a class="text-[#7F7F7F] underline ml-1" href="#">Daftar disini</a>
+        </p>
+        <button class="bg-[#1B3B8B] text-white font-semibold text-lg px-6 py-3 rounded-md" type="submit">LogIn</button>
+      </div>
+    </form>
+  </main>
+  <footer class="max-w-5xl mx-auto px-6 mt-20 mb-10">
+    <p class="text-xs text-[#7F7F7F]">
+      Dengan mendaftar, anda menyetujui
+      <a class="text-[#1B3B8B] underline" href="#">kebijakan privasi</a> di Be-Line
+    </p>
+  </footer>
+</body>
+</html>
