@@ -423,9 +423,13 @@ img.rounded-circle {
   box-shadow: 0 2px 6px rgba(0,0,0,0.1);
 }
 
+.container {
+  margin-top: 0px;
+}
+
 .payment-container {
   max-width: 800px;
-  margin: 40px auto;
+  margin-top: 0px !important;
   background-color: #fff;
   padding: 30px;
   border-radius: 10px;

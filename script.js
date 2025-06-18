@@ -61,3 +61,10 @@ blogs.forEach((blog) => {
   });
   blogList.appendChild(li);
 });
+
+function follow(nama) {
+  const btn = document.getElementById("btn" + nama);
+  btn.innerText = "Diikuti";
+  btn.disabled = true;
+  alert("Anda telah mengikuti " + nama + " ❤️");
+}

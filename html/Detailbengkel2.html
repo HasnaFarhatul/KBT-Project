@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Rozak Montir | Be-Line</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet"/>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css"/>
+  <link href="https://fonts.googleapis.com/css2?family=Trebuchet+MS&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="../style.css" />
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg navbar-light px-4 py-3 shadow-sm">
+        <div class="container-fluid">
+            <div class="d-flex align-items-center">
+                <span class="me-2 fw-semibold">Ikuti Kami di:</span>
+                <a href="#" class="me-2 text-dark"><i class="bi bi-instagram fs-5"></i></a>
+                <a href="mailto:email@example.com" class="me-2 text-dark"><i class="bi bi-envelope-fill fs-5"></i></a>
+                <a href="https://wa.me/6281776499223" class="text-dark"><i class="bi bi-whatsapp fs-5"></i></a>
+            </div>
+            <div class="d-flex align-items-center ms-auto">
+                <a href="Notif.html" class="me-4 text-dark d-flex align-items-center">
+                <i class="bi bi-bell-fill me-1 fs-5"></i> <span>Notifikasi</span>
+                </a>
+                <a href="Profile.html" class="text-dark d-flex align-items-center">
+                <img src="https://cdn.pixabay.com/photo/2018/11/13/21/43/avatar-3814049_1280.png" alt="Profil" width="32" height="32" class="rounded-circle me-2" />
+                <span>Profile</span>
+                </a>
+            </div>
+        </div>
+    </nav>
+    <div class="container my-5">
+        <div class="mx-auto p-4 shadow rounded" style="max-width: 600px; background-color: #f8f9fa;">
+            <h3 class="mb-3">Rozak Montir</h3>
+            <p><strong>Jumlah Pengikut:</strong> <span id="followersRozak">98</span></p>
+            <button id="btnRozak" class="btn-daftar" onclick="follow('Rozak')">Ikuti</button>
+
+            <hr />
+            <p class="fw-bold">Layanan Tersedia:</p>
+            <div class="row g-4">
+            <div class="col-md-4">
+                <div class="card card-booking">
+                <img src="https://s.garasi.id/c1200x675/q99/article/df22314d-501d-4b14-a3ea-2ff0397bdf7f.jpeg" class="card-img-top" alt="Ganti Aki Mobil">
+                <div class="card-body">
+                    <h5 class="card-title"><a href="Akimobil.html" class="text-dark">Ganti Aki Mobil</a></h5>
+                    <p class="card-text">✔️ Aki baru, kunci pas, sarung tangan</p>
+                    <p class="harga">Rp. 850.000</p>
+                </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="card card-booking">
+                <img src="https://img.okezone.com/content/2015/09/21/15/1218392/ketahui-risiko-menambal-ban-tubeless-gunakan-lem-cair-r79v8zUosw.jpg" class="card-img-top" alt="Tambal Ban Motor">
+                <div class="card-body">
+                    <h5 class="card-title"><a href="Tambalban.html" class="text-dark">Tambal Ban Motor</a></h5>
+                    <p class="card-text">✔️ Karet tambal, lem, alat pemanas</p>
+                    <p class="harga">Rp. 15.000</p>
+                </div>
+                </div>
+            </div>
+            </div>
+        </div>
+        </div>
+            <footer class="footer-custom text-white py-5 mt-5">
+        <div class="container">
+          <div class="row justify-content-center text-center text-md-start">
+            <div class="col-md-3 mb-4">
+              <h5 class="footer-subjudul">Layanan Pelanggan</h5>
+              <ul class="list-unstyled">
+                <li><a href="Bantuan.html" class="footer-link">Bantuan</a></li>
+                <li><a href="Metodbayar.html" class="footer-link">Metode Pembayaran</a></li>
+                <li><a href="Laypelanggan.html" class="footer-link">Layanan Pelanggan</a></li>
+                <li><a href="Historyorder.html" class="footer-link">Pelacakan Jasa</a></li>
+                <li><a href="Hubkami.html" class="footer-link">Hubungi Kami</a></li>
+              </ul>
+            </div>
+            <div class="col-md-3 mb-4">
+              <h5 class="footer-subjudul">Jelajahi Kami</h5>
+              <ul class="list-unstyled">
+                <li><a href="#" class="footer-link">Karir</a></li>
+                <li><a href="Kebprivasi.html" class="footer-link">Kebijakan Privasi</a></li>
+                <li><a href="Bengkel.html" class="footer-link">Be-Line Bengkel</a></li>
+                <li><a href="Promosi.html" class="footer-link">Promosi</a></li>
+                <li><a href="Blog.html" class="footer-link">Blog</a></li>
+              </ul>
+            </div>
+            <div class="col-md-3 mb-4">
+              <h5 class="footer-subjudul">Ikuti Kami</h5>
+                <div class="d-flex justify-content-center justify-content-md-start gap-3">
+                  <a href="mailto:beline@gmail.com" target="_blank" class="sosmed-icon"><i class="bi bi-envelope-fill"></i></a>
+                  <a href="https://wa.me/6281776499223" target="_blank" class="sosmed-icon"><i class="bi bi-whatsapp"></i></a>
+                  <a href="https://www.instagram.com/be_line" target="_blank" class="sosmed-icon"><i class="bi bi-instagram"></i></a>
+                </div>
+            </div>
+            <div class="copr">
+              <p>Copyright Be-Line 2025</p>
+            </div>
+          </div>
+        </div>
+      </footer>      
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+  <script src="../script.js"></script>
+</body>
+</html>
