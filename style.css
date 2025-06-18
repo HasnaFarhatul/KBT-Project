@@ -11,11 +11,9 @@
 }
 
 .logo-img {
-  height: 50px !important;
-  width: auto;
-  object-fit: contain;
-  display: inline-block;
-  margin-left: 10px;      
+  width: 150px;
+  height: 50px;
+  object-fit: cover;     
 }
 
 .navbar {
@@ -126,13 +124,6 @@ h1 {
   background-repeat: no-repeat;
   background-position: center right;
   background-size: contain;
-}
-
-.logo-img {
-  width: 150px;
-  height: auto;
-  margin-left: 40px;
-  object-fit: contain;
 }
 
 .text-area {
@@ -261,6 +252,7 @@ img.rounded-circle {
   align-items: center;
   justify-content: center;
 }
+
 .search-bar .search-input {
   width: 200px;
   max-width:500px;
@@ -397,4 +389,105 @@ img.rounded-circle {
 #blog-list .list-group-item:focus {
   background-color: #0d47a1;
   color: white;
+}
+
+.bantuan-container {
+  background-color: #f8f9fa;
+  border-radius: 12px;
+  padding: 30px;
+}
+
+.faq-item {
+  background: white;
+  border-radius: 10px;
+  padding: 15px 20px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.05);
+}
+
+.faq-question {
+  font-weight: bold;
+  color: rgb(32, 32, 164);
+}
+
+.faq-answer {
+  margin-top: 5px;
+  color: #555;
+}
+
+.privacy-container {
+  max-width: 800px;
+  margin: 40px auto;
+  background-color: #ffffff;
+  padding: 30px;
+  border-radius: 10px;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+}
+
+.payment-container {
+  max-width: 800px;
+  margin: 40px auto;
+  background-color: #fff;
+  padding: 30px;
+  border-radius: 10px;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+}
+
+.hubungi-container {
+  min-height: 70vh;
+}
+
+.promosi-container {
+  background: #f8f9fa; /* abu muda */
+  padding: 3rem 1rem;
+  border-radius: 12px;
+  margin-top: 2rem;
+}
+
+.promosi-container h1 {
+  color: rgb(32, 32, 164);
+  font-weight: 700;
+}
+
+.promosi-container h4 {
+  margin-bottom: 0.75rem;
+  color: #333;
+}
+
+.promosi-container p, 
+.promosi-container li {
+  font-size: 1rem;
+  color: #555;
+  line-height: 1.6;
+}
+
+.promosi-container ul {
+  padding-left: 1.25rem;
+}
+
+.promosi-container a.btn-primary {
+  background-color: rgb(32, 32, 164);
+  border: none;
+}
+
+.promosi-container a.btn-primary:hover {
+  background-color: rgb(25, 25, 120);
+}
+
+.layanan-container {
+  background: #f8f9fa;
+}
+
+.layanan-card {
+  transition: transform 0.2s ease;
+  border: 1px solid #ddd;
+}
+
+.layanan-card:hover {
+  transform: translateY(-5px);
+  border-color: rgb(32, 32, 164);
+}
+
+.layanan-icon {
+  font-size: 2.5rem;
+  color: rgb(32, 32, 164);
 }
